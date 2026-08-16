@@ -6,7 +6,7 @@ on:
 
 env:
   # Device env
-  DEVICE_NAME : "Redmi_Note10Pro(_Chopin)"
+  DEVICE_NAME : "Redmi_Note10Pro_Chopin"
   DEVICE_CODENAME : "M2104K10AC"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
