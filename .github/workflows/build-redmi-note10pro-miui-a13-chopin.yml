@@ -93,7 +93,7 @@ env:
 jobs:
   build-kernel:
     name: Build Kernel
-    runs-on: ubuntu-latest # u can changed to ubuntu 24.04, and need container set ubuntu-latest
+    runs-on: ubuntu-22.0.4 # u can changed to ubuntu 24.04, and need container set ubuntu-latest
     #container:  ubuntu:focal
     env:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
