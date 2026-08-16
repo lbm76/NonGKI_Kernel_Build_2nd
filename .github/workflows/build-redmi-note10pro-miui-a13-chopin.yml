@@ -15,7 +15,7 @@ env:
   KERNEL_SOURCE : "https://github.com/2217598627/xinran_xiaomi_kernel_chopin.git"
   KERNEL_BRANCH : "xinran"
 
-  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/LLVM-17.0.6-Linux-X64.tar.xz"
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.1/clang+llvm-13.0.1-x86_64-linux-gnu-ubuntu-20.04.tar.xz"
   CLANG_BRANCH : ""
 
   GCC_GNU : false
@@ -93,7 +93,7 @@ env:
 jobs:
   build-kernel:
     name: Build Kernel
-    runs-on: ubuntu-22.0.4 # u can changed to ubuntu 24.04, and need container set ubuntu-latest
+    runs-on: ubuntu-24.04 # u can changed to ubuntu 24.04, and need container set ubuntu-latest
     #container:  ubuntu:focal
     env:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
