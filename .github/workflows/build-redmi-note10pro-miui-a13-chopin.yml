@@ -12,7 +12,7 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/2217598627/xinran_xiaomi_kernel_chopin.git"
+  KERNEL_SOURCE : "https://github.com/lbm76/xinran_xiaomi_kernel_chopin.git"
   KERNEL_BRANCH : "xinran"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-22.1.4/LLVM-22.1.4-Linux-X64.tar.xz"
